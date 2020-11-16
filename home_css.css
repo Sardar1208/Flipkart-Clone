@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-color: #EDF3F0;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #0076CE;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 7px 15%;
+    font-size: large;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 900;
+}
+
+.navbar a{
+    display: inline-block;
+    color: cadetblue;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+.navbar_links{
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.navbar input{
+    height: 23px;
+    width: 35%;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+.navbar button{
+    padding: 3px 23px;
+    color: #0076CE;
+}
+
+.navbar_links a{
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-left: 30px;
+    font-style: normal;
+}
+
+.slider{
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider figure div {
+    float: left;
+    width: 20%;
+}
+.slider figure img {
+    width: 100%;
+    float: left;
+}
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0%;
+    transition: left 0.6s ease;
+}
+.prev , .next {
+    display: block;
+    background-color:white;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1;
+}
+.next{
+    right: 0;
+}
+
+.box{
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 150;
+}
+.box button{
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: none;
+    float: right;
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color:#0076CE ;
+    color: white;
+    border: none;
+}
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lister{
+    float: left;
+    width: 200%;
+}
+.items{
+    font-size: 15px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+    
+}
